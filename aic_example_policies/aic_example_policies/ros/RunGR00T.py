@@ -48,8 +48,8 @@ from rlinf.models.embodiment.gr00t.simulation_io import (
 # ---------------------------------------------------------------------------
 _BASE_MODEL_PATH = "/data/models/gr00t-n1.5-3b"
 _CHECKPOINT_PATH = (
-    "/home/elicer/project/RLinf/logs/20260507-00:06:13"
-    "/ur5e_sft_gr00t/checkpoints/global_step_3000"
+    "/home/elicer/project/RLinf/logs/20260511-20:09:35"
+    "/pretrained_v3_sft_gr00t/checkpoints/global_step_1399"
     "/actor/model_state_dict/full_weights.pt"
 )
 
