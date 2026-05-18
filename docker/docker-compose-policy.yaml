@@ -1,0 +1,66 @@
+# Local verification compose for the GR00T policy.
+#
+# Spins up:
+#   - eval  : the official aic_eval simulator (same image used in real eval)
+#   - model : our GR00T policy container (this Dockerfile)
+#
+# Heavy assets (RLinf venv, GR00T base model, fine-tuned checkpoint, dataset stats)
+# are bind-mounted from the host to keep the build fast.
+#
+# Build & run:
+#   cd ~/ws_aic/src/aic
+#   docker compose -f docker/docker-compose-policy.yaml build model
+#   docker compose -f docker/docker-compose-policy.yaml up
+#
+# Stop:
+#   docker compose -f docker/docker-compose-policy.yaml down
+
+name: aic-policy-verify
+services:
+  eval:
+    image: ghcr.io/intrinsic-dev/aic/aic_eval
+    command: >
+      gazebo_gui:=false launch_rviz:=false ground_truth:=false
+      start_aic_engine:=true shutdown_on_aic_engine_exit:=true
+      model_discovery_timeout_seconds:=600
+    gpus: all
+    networks:
+      - default
+    environment:
+      AIC_EVAL_PASSWD: CHANGE_IN_PROD
+      AIC_MODEL_PASSWD: CHANGE_IN_PROD
+      # AIC_ENABLE_ACL: true
+
+  model:
+    image: aic-policy-gr00t:step19000
+    build:
+      dockerfile: docker/aic_policy_gr00t/Dockerfile
+      context: ..
+    gpus: all
+    networks:
+      - default
+    environment:
+      RMW_IMPLEMENTATION: rmw_zenoh_cpp
+      ZENOH_ROUTER_CHECK_ATTEMPTS: -1
+      AIC_ROUTER_ADDR: eval:7447
+      AIC_MODEL_PASSWD: CHANGE_IN_PROD
+      # AIC_ENABLE_ACL: true
+      # ---- GR00T model + checkpoint paths (inside container) -----------
+      GROOT_MODEL_PATH: /opt/models/gr00t-n1.5-3b
+      GROOT_CHECKPOINT_PATH: /opt/checkpoints/full_weights.pt
+      AIC_UR5E_STATS_JSON: /opt/stats/ur5e_stats.json
+      RLINF_PATH: /home/graphai/project/aic/RLinf
+      RLINF_PYTHON: /home/graphai/project/aic/RLinf/.venv/bin/python
+    volumes:
+      # GR00T base model (with ur5e metadata.json injected at runtime by entrypoint)
+      - /home/graphai/models/gr00t-n1.5-3b:/opt/models/gr00t-n1.5-3b:rw
+      # Fine-tuned checkpoint (step 19000)
+      - /home/graphai/checkpoints/aic_sft_v3/global_step_19000/actor/model_state_dict/full_weights.pt:/opt/checkpoints/full_weights.pt:ro
+      # Dataset stats for ur5e injection
+      - /tmp/phylab_v3_stats/meta/stats.json:/opt/stats/ur5e_stats.json:ro
+      # RLinf venv — mount at SAME host path so venv shebang/path resolves correctly
+      - /home/graphai/project/aic/RLinf:/home/graphai/project/aic/RLinf:ro
+
+networks:
+  default:
+    internal: true
