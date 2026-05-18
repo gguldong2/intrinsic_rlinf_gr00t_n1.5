@@ -1,0 +1,847 @@
+{
+  "4000": {
+    "total": 43.841,
+    "trials": {
+      "trial_1": {
+        "t1": 1.0,
+        "t2": 17.57981903247341,
+        "t3": 4.306389072496356,
+        "engine_score": 22.886208,
+        "cats": {
+          "contacts": 0.0,
+          "duration": 6.537163636363636,
+          "insertion force": 0.0,
+          "trajectory efficiency": 6.0,
+          "trajectory smoothness": 5.042655396109774
+        },
+        "final_dist": 0.1,
+        "duration": 30.04,
+        "jerk": 7.98
+      },
+      "trial_2": {
+        "t1": 1.0,
+        "t2": 17.644832736747166,
+        "t3": 1.3100526952279021,
+        "engine_score": 19.954885,
+        "cats": {
+          "contacts": 0.0,
+          "duration": 6.533236363636363,
+          "insertion force": 0.0,
+          "trajectory efficiency": 6.0,
+          "trajectory smoothness": 5.111596373110803
+        },
+        "final_dist": 0.12,
+        "duration": 30.06,
+        "jerk": 7.4
+      },
+      "trial_3": {
+        "t1": 1.0,
+        "t2": 0.0,
+        "t3": 0.0,
+        "engine_score": 1.0,
+        "cats": {
+          "contacts": 0.0,
+          "duration": 0.0,
+          "insertion force": 0.0,
+          "trajectory efficiency": 0.0,
+          "trajectory smoothness": 0.0
+        },
+        "final_dist": 0.2,
+        "duration": null,
+        "jerk": null
+      }
+    }
+  },
+  "5000": {
+    "total": 26.527,
+    "trials": {
+      "trial_1": {
+        "t1": 1.0,
+        "t2": 0.0,
+        "t3": 0.0,
+        "engine_score": 1.0,
+        "cats": {
+          "contacts": 0.0,
+          "duration": 0.0,
+          "insertion force": 0.0,
+          "trajectory efficiency": 0.0,
+          "trajectory smoothness": 0.0
+        },
+        "final_dist": 0.12,
+        "duration": null,
+        "jerk": null
+      },
+      "trial_2": {
+        "t1": 1.0,
+        "t2": 17.38490244579909,
+        "t3": 6.141848572301409,
+        "engine_score": 24.526751,
+        "cats": {
+          "contacts": 0.0,
+          "duration": 6.326836363636364,
+          "insertion force": 0.0,
+          "trajectory efficiency": 6.0,
+          "trajectory smoothness": 5.058066082162724
+        },
+        "final_dist": 0.1,
+        "duration": 31.0,
+        "jerk": 7.85
+      },
+      "trial_3": {
+        "t1": 1.0,
+        "t2": 0.0,
+        "t3": 0.0,
+        "engine_score": 1.0,
+        "cats": {
+          "contacts": 0.0,
+          "duration": 0.0,
+          "insertion force": 0.0,
+          "trajectory efficiency": 0.0,
+          "trajectory smoothness": 0.0
+        },
+        "final_dist": 0.21,
+        "duration": null,
+        "jerk": null
+      }
+    }
+  },
+  "6000": {
+    "total": 71.668,
+    "trials": {
+      "trial_1": {
+        "t1": 1.0,
+        "t2": 17.465497031739563,
+        "t3": 21.04765083297366,
+        "engine_score": 39.513148,
+        "cats": {
+          "contacts": 0.0,
+          "duration": 6.5406545454545455,
+          "insertion force": 0.0,
+          "trajectory efficiency": 6.0,
+          "trajectory smoothness": 4.924842486285018
+        },
+        "final_dist": 0.06,
+        "duration": 30.02,
+        "jerk": 8.96
+      },
+      "trial_2": {
+        "t1": 1.0,
+        "t2": 5.435310157160718,
+        "t3": 24.71969681117978,
+        "engine_score": 31.155007,
+        "cats": {
+          "contacts": 0.0,
+          "duration": 6.5406545454545455,
+          "trajectory efficiency": 6.0,
+          "trajectory smoothness": 4.894655611706172
+        },
+        "final_dist": 0.05,
+        "duration": 30.02,
+        "jerk": 9.21
+      },
+      "trial_3": {
+        "t1": 1.0,
+        "t2": 0.0,
+        "t3": 0.0,
+        "engine_score": 1.0,
+        "cats": {
+          "contacts": 0.0,
+          "duration": 0.0,
+          "insertion force": 0.0,
+          "trajectory efficiency": 0.0,
+          "trajectory smoothness": 0.0
+        },
+        "final_dist": 0.21,
+        "duration": null,
+        "jerk": null
+      }
+    }
+  },
+  "7000": {
+    "total": 67.153,
+    "trials": {
+      "trial_1": {
+        "t1": 1.0,
+        "t2": 17.28451064000258,
+        "t3": 6.955942078902888,
+        "engine_score": 25.240453,
+        "cats": {
+          "contacts": 0.0,
+          "duration": 6.319418181818181,
+          "insertion force": 0.0,
+          "trajectory efficiency": 6.0,
+          "trajectory smoothness": 4.965092458184399
+        },
+        "final_dist": 0.09,
+        "duration": 31.04,
+        "jerk": 8.62
+      },
+      "trial_2": {
+        "t1": 1.0,
+        "t2": 17.462351640786785,
+        "t3": 22.450131277101235,
+        "engine_score": 40.912483,
+        "cats": {
+          "contacts": 0.0,
+          "duration": 6.543709090909092,
+          "insertion force": 0.0,
+          "trajectory efficiency": 6.0,
+          "trajectory smoothness": 4.918642549877694
+        },
+        "final_dist": 0.05,
+        "duration": 30.01,
+        "jerk": 9.01
+      },
+      "trial_3": {
+        "t1": 1.0,
+        "t2": 0.0,
+        "t3": 0.0,
+        "engine_score": 1.0,
+        "cats": {
+          "contacts": 0.0,
+          "duration": 0.0,
+          "insertion force": 0.0,
+          "trajectory efficiency": 0.0,
+          "trajectory smoothness": 0.0
+        },
+        "final_dist": 0.2,
+        "duration": null,
+        "jerk": null
+      }
+    }
+  },
+  "8000": {
+    "total": 64.313,
+    "trials": {
+      "trial_1": {
+        "t1": 1.0,
+        "t2": 17.244783417535096,
+        "t3": 8.552256294532205,
+        "engine_score": 26.79704,
+        "cats": {
+          "contacts": 0.0,
+          "duration": 6.322909090909091,
+          "insertion force": 0.0,
+          "trajectory efficiency": 6.0,
+          "trajectory smoothness": 4.921874326626006
+        },
+        "final_dist": 0.09,
+        "duration": 31.02,
+        "jerk": 8.98
+      },
+      "trial_2": {
+        "t1": 1.0,
+        "t2": 17.358607255911878,
+        "t3": 18.157368989298778,
+        "engine_score": 36.515976,
+        "cats": {
+          "contacts": 0.0,
+          "duration": 6.545018181818182,
+          "insertion force": 0.0,
+          "trajectory efficiency": 6.0,
+          "trajectory smoothness": 4.813589074093693
+        },
+        "final_dist": 0.07,
+        "duration": 30.0,
+        "jerk": 9.89
+      },
+      "trial_3": {
+        "t1": 1.0,
+        "t2": 0.0,
+        "t3": 0.0,
+        "engine_score": 1.0,
+        "cats": {
+          "contacts": 0.0,
+          "duration": 0.0,
+          "insertion force": 0.0,
+          "trajectory efficiency": 0.0,
+          "trajectory smoothness": 0.0
+        },
+        "final_dist": 0.2,
+        "duration": null,
+        "jerk": null
+      }
+    }
+  },
+  "9000": {
+    "total": 64.063,
+    "trials": {
+      "trial_1": {
+        "t1": 1.0,
+        "t2": 17.449783338946464,
+        "t3": 8.03177064120358,
+        "engine_score": 26.481554,
+        "cats": {
+          "contacts": 0.0,
+          "duration": 6.5406545454545455,
+          "insertion force": 0.0,
+          "trajectory efficiency": 6.0,
+          "trajectory smoothness": 4.909128793491917
+        },
+        "final_dist": 0.09,
+        "duration": 30.02,
+        "jerk": 9.09
+      },
+      "trial_2": {
+        "t1": 1.0,
+        "t2": 17.500592394283494,
+        "t3": 18.081282265504715,
+        "engine_score": 36.581875,
+        "cats": {
+          "contacts": 0.0,
+          "duration": 6.543272727272727,
+          "insertion force": 0.0,
+          "trajectory efficiency": 6.0,
+          "trajectory smoothness": 4.957319667010765
+        },
+        "final_dist": 0.07,
+        "duration": 30.01,
+        "jerk": 8.69
+      },
+      "trial_3": {
+        "t1": 1.0,
+        "t2": 0.0,
+        "t3": 0.0,
+        "engine_score": 1.0,
+        "cats": {
+          "contacts": 0.0,
+          "duration": 0.0,
+          "insertion force": 0.0,
+          "trajectory efficiency": 0.0,
+          "trajectory smoothness": 0.0
+        },
+        "final_dist": 0.2,
+        "duration": null,
+        "jerk": null
+      }
+    }
+  },
+  "11000": {
+    "total": 67.852,
+    "trials": {
+      "trial_1": {
+        "t1": 1.0,
+        "t2": 17.52786416301456,
+        "t3": 8.55771990548625,
+        "engine_score": 27.085584,
+        "cats": {
+          "contacts": 0.0,
+          "duration": 6.538036363636364,
+          "insertion force": 0.0,
+          "trajectory efficiency": 6.0,
+          "trajectory smoothness": 4.9898277993781965
+        },
+        "final_dist": 0.09,
+        "duration": 30.03,
+        "jerk": 8.42
+      },
+      "trial_2": {
+        "t1": 1.0,
+        "t2": 17.346887595116208,
+        "t3": 21.419556992139434,
+        "engine_score": 39.766445,
+        "cats": {
+          "contacts": 0.0,
+          "duration": 6.542400000000001,
+          "insertion force": 0.0,
+          "trajectory efficiency": 6.0,
+          "trajectory smoothness": 4.804487595116207
+        },
+        "final_dist": 0.06,
+        "duration": 30.01,
+        "jerk": 9.96
+      },
+      "trial_3": {
+        "t1": 1.0,
+        "t2": 0.0,
+        "t3": 0.0,
+        "engine_score": 1.0,
+        "cats": {
+          "contacts": 0.0,
+          "duration": 0.0,
+          "insertion force": 0.0,
+          "trajectory efficiency": 0.0,
+          "trajectory smoothness": 0.0
+        },
+        "final_dist": 0.23,
+        "duration": null,
+        "jerk": null
+      }
+    }
+  },
+  "12000": {
+    "total": 27.321,
+    "trials": {
+      "trial_1": {
+        "t1": 1.0,
+        "t2": 17.50086081046981,
+        "t3": 8.646206724548412,
+        "engine_score": 27.147068,
+        "cats": {
+          "contacts": 0.0,
+          "duration": 6.5393454545454555,
+          "insertion force": 0.0,
+          "trajectory efficiency": 6.0,
+          "trajectory smoothness": 4.961515355924354
+        },
+        "final_dist": 0.09,
+        "duration": 30.03,
+        "jerk": 8.65
+      },
+      "trial_2": {
+        "t1": 1.0,
+        "t2": 17.531468956322307,
+        "t3": 16.64228212558957,
+        "engine_score": 35.173751,
+        "cats": {
+          "contacts": 0.0,
+          "duration": 6.543272727272727,
+          "insertion force": 0.0,
+          "trajectory efficiency": 6.0,
+          "trajectory smoothness": 4.988196229049578
+        },
+        "final_dist": 0.07,
+        "duration": 30.01,
+        "jerk": 8.43
+      },
+      "trial_3": {
+        "t1": 1.0,
+        "t2": 0,
+        "t3": 0.0,
+        "engine_score": -35.0,
+        "cats": {
+          "duration": 0.0,
+          "trajectory efficiency": 0.0,
+          "trajectory smoothness": 0.0
+        },
+        "final_dist": 0.16,
+        "duration": null,
+        "jerk": null
+      }
+    }
+  },
+  "13000": {
+    "total": 68.954,
+    "trials": {
+      "trial_1": {
+        "t1": 1.0,
+        "t2": 17.432526811600308,
+        "t3": 9.839190068340557,
+        "engine_score": 28.271717,
+        "cats": {
+          "contacts": 0.0,
+          "duration": 6.541527272727272,
+          "insertion force": 0.0,
+          "trajectory efficiency": 6.0,
+          "trajectory smoothness": 4.890999538873036
+        },
+        "final_dist": 0.09,
+        "duration": 30.02,
+        "jerk": 9.24
+      },
+      "trial_2": {
+        "t1": 1.0,
+        "t2": 17.54901878228161,
+        "t3": 21.133176402087468,
+        "engine_score": 39.682195,
+        "cats": {
+          "contacts": 0.0,
+          "duration": 6.543272727272727,
+          "insertion force": 0.0,
+          "trajectory efficiency": 6.0,
+          "trajectory smoothness": 5.005746055008884
+        },
+        "final_dist": 0.06,
+        "duration": 30.01,
+        "jerk": 8.29
+      },
+      "trial_3": {
+        "t1": 1.0,
+        "t2": 0.0,
+        "t3": 0.0,
+        "engine_score": 1.0,
+        "cats": {
+          "contacts": 0.0,
+          "duration": 0.0,
+          "insertion force": 0.0,
+          "trajectory efficiency": 0.0,
+          "trajectory smoothness": 0.0
+        },
+        "final_dist": 0.21,
+        "duration": null,
+        "jerk": null
+      }
+    }
+  },
+  "14000": {
+    "total": 3.0,
+    "trials": {
+      "trial_1": {
+        "t1": 1.0,
+        "t2": 0.0,
+        "t3": 0.0,
+        "engine_score": 1.0,
+        "cats": {
+          "contacts": 0.0,
+          "duration": 0.0,
+          "insertion force": 0.0,
+          "trajectory efficiency": 0.0,
+          "trajectory smoothness": 0.0
+        },
+        "final_dist": 0.13,
+        "duration": null,
+        "jerk": null
+      },
+      "trial_2": {
+        "t1": 1.0,
+        "t2": 0.0,
+        "t3": 0.0,
+        "engine_score": 1.0,
+        "cats": {
+          "contacts": 0.0,
+          "duration": 0.0,
+          "insertion force": 0.0,
+          "trajectory efficiency": 0.0,
+          "trajectory smoothness": 0.0
+        },
+        "final_dist": 0.14,
+        "duration": null,
+        "jerk": null
+      },
+      "trial_3": {
+        "t1": 1.0,
+        "t2": 0.0,
+        "t3": 0.0,
+        "engine_score": 1.0,
+        "cats": {
+          "contacts": 0.0,
+          "duration": 0.0,
+          "insertion force": 0.0,
+          "trajectory efficiency": 0.0,
+          "trajectory smoothness": 0.0
+        },
+        "final_dist": 0.32,
+        "duration": null,
+        "jerk": null
+      }
+    }
+  },
+  "15000": {
+    "total": 76.158,
+    "trials": {
+      "trial_1": {
+        "t1": 1.0,
+        "t2": 17.4023181263424,
+        "t3": 13.29975517136125,
+        "engine_score": 31.702073,
+        "cats": {
+          "contacts": 0.0,
+          "duration": 6.322909090909091,
+          "insertion force": 0.0,
+          "trajectory efficiency": 6.0,
+          "trajectory smoothness": 5.0794090354333115
+        },
+        "final_dist": 0.08,
+        "duration": 31.02,
+        "jerk": 7.67
+      },
+      "trial_2": {
+        "t1": 1.0,
+        "t2": 17.598854299697727,
+        "t3": 24.85686672073171,
+        "engine_score": 43.455721,
+        "cats": {
+          "contacts": 0.0,
+          "duration": 6.542836363636363,
+          "insertion force": 0.0,
+          "trajectory efficiency": 6.0,
+          "trajectory smoothness": 5.056017936061362
+        },
+        "final_dist": 0.05,
+        "duration": 30.01,
+        "jerk": 7.87
+      },
+      "trial_3": {
+        "t1": 1.0,
+        "t2": 0.0,
+        "t3": 0.0,
+        "engine_score": 1.0,
+        "cats": {
+          "contacts": 0.0,
+          "duration": 0.0,
+          "insertion force": 0.0,
+          "trajectory efficiency": 0.0,
+          "trajectory smoothness": 0.0
+        },
+        "final_dist": 0.19,
+        "duration": null,
+        "jerk": null
+      }
+    }
+  },
+  "16788": {
+    "total": 63.178,
+    "trials": {
+      "trial_1": {
+        "t1": 1.0,
+        "t2": 17.25919888130562,
+        "t3": 9.439297094626523,
+        "engine_score": 27.698496,
+        "cats": {
+          "contacts": 0.0,
+          "duration": 6.321163636363638,
+          "insertion force": 0.0,
+          "trajectory efficiency": 6.0,
+          "trajectory smoothness": 4.938035244941981
+        },
+        "final_dist": 0.09,
+        "duration": 31.03,
+        "jerk": 8.85
+      },
+      "trial_2": {
+        "t1": 1.0,
+        "t2": 17.454081606793135,
+        "t3": 16.025574929863602,
+        "engine_score": 34.479657,
+        "cats": {
+          "contacts": 0.0,
+          "duration": 6.544581818181818,
+          "insertion force": 0.0,
+          "trajectory efficiency": 6.0,
+          "trajectory smoothness": 4.909499788611316
+        },
+        "final_dist": 0.07,
+        "duration": 30.0,
+        "jerk": 9.09
+      },
+      "trial_3": {
+        "t1": 1.0,
+        "t2": 0.0,
+        "t3": 0.0,
+        "engine_score": 1.0,
+        "cats": {
+          "contacts": 0.0,
+          "duration": 0.0,
+          "insertion force": 0.0,
+          "trajectory efficiency": 0.0,
+          "trajectory smoothness": 0.0
+        },
+        "final_dist": 0.22,
+        "duration": null,
+        "jerk": null
+      }
+    }
+  },
+  "18000": {
+    "total": 72.385,
+    "trials": {
+      "trial_1": {
+        "t1": 1.0,
+        "t2": 17.292500554265985,
+        "t3": 14.321751782634488,
+        "engine_score": 32.614252,
+        "cats": {
+          "contacts": 0.0,
+          "duration": 6.318109090909092,
+          "insertion force": 0.0,
+          "trajectory efficiency": 6.0,
+          "trajectory smoothness": 4.974391463356895
+        },
+        "final_dist": 0.07,
+        "duration": 31.04,
+        "jerk": 8.55
+      },
+      "trial_2": {
+        "t1": 1.0,
+        "t2": 17.561950809359843,
+        "t3": 20.208711592763972,
+        "engine_score": 38.770662,
+        "cats": {
+          "contacts": 0.0,
+          "duration": 6.542836363636363,
+          "insertion force": 0.0,
+          "trajectory efficiency": 6.0,
+          "trajectory smoothness": 5.019114445723478
+        },
+        "final_dist": 0.06,
+        "duration": 30.01,
+        "jerk": 8.17
+      },
+      "trial_3": {
+        "t1": 1.0,
+        "t2": 0.0,
+        "t3": 0.0,
+        "engine_score": 1.0,
+        "cats": {
+          "contacts": 0.0,
+          "duration": 0.0,
+          "insertion force": 0.0,
+          "trajectory efficiency": 0.0,
+          "trajectory smoothness": 0.0
+        },
+        "final_dist": 0.21,
+        "duration": null,
+        "jerk": null
+      }
+    }
+  },
+  "19000": {
+    "total": 73.241,
+    "trials": {
+      "trial_1": {
+        "t1": 1.0,
+        "t2": 17.508032305907406,
+        "t3": 9.951776908643449,
+        "engine_score": 28.459809,
+        "cats": {
+          "contacts": 0.0,
+          "duration": 6.5393454545454555,
+          "insertion force": 0.0,
+          "trajectory efficiency": 6.0,
+          "trajectory smoothness": 4.96868685136195
+        },
+        "final_dist": 0.09,
+        "duration": 30.03,
+        "jerk": 8.59
+      },
+      "trial_2": {
+        "t1": 1.0,
+        "t2": 17.780996821839462,
+        "t3": 25.0,
+        "engine_score": 43.780997,
+        "cats": {
+          "contacts": 0.0,
+          "duration": 6.762763636363637,
+          "insertion force": 0.0,
+          "trajectory efficiency": 6.0,
+          "trajectory smoothness": 5.018233185475825
+        },
+        "final_dist": 0.03,
+        "duration": 29.0,
+        "jerk": 8.18
+      },
+      "trial_3": {
+        "t1": 1.0,
+        "t2": 0.0,
+        "t3": 0.0,
+        "engine_score": 1.0,
+        "cats": {
+          "contacts": 0.0,
+          "duration": 0.0,
+          "insertion force": 0.0,
+          "trajectory efficiency": 0.0,
+          "trajectory smoothness": 0.0
+        },
+        "final_dist": 0.2,
+        "duration": null,
+        "jerk": null
+      }
+    }
+  },
+  "20000": {
+    "total": 52.704,
+    "trials": {
+      "trial_1": {
+        "t1": 1.0,
+        "t2": 17.429673179000453,
+        "t3": 4.17642476229916,
+        "engine_score": 22.606098,
+        "cats": {
+          "contacts": 0.0,
+          "duration": 6.537163636363636,
+          "insertion force": 0.0,
+          "trajectory efficiency": 6.0,
+          "trajectory smoothness": 4.892509542636817
+        },
+        "final_dist": 0.1,
+        "duration": 30.04,
+        "jerk": 9.23
+      },
+      "trial_2": {
+        "t1": 1.0,
+        "t2": 17.402320544850646,
+        "t3": 10.695269986933782,
+        "engine_score": 29.097591,
+        "cats": {
+          "contacts": 0.0,
+          "duration": 6.536290909090909,
+          "insertion force": 0.0,
+          "trajectory efficiency": 6.0,
+          "trajectory smoothness": 4.8660296357597375
+        },
+        "final_dist": 0.09,
+        "duration": 30.04,
+        "jerk": 9.45
+      },
+      "trial_3": {
+        "t1": 1.0,
+        "t2": 0.0,
+        "t3": 0.0,
+        "engine_score": 1.0,
+        "cats": {
+          "contacts": 0.0,
+          "duration": 0.0,
+          "insertion force": 0.0,
+          "trajectory efficiency": 0.0,
+          "trajectory smoothness": 0.0
+        },
+        "final_dist": 0.19,
+        "duration": null,
+        "jerk": null
+      }
+    }
+  },
+  "26000": {
+    "total": 65.046,
+    "trials": {
+      "trial_1": {
+        "t1": 1.0,
+        "t2": 17.47129093731524,
+        "t3": 8.517588829342705,
+        "engine_score": 26.98888,
+        "cats": {
+          "contacts": 0.0,
+          "duration": 6.538036363636364,
+          "insertion force": 0.0,
+          "trajectory efficiency": 6.0,
+          "trajectory smoothness": 4.933254573678875
+        },
+        "final_dist": 0.09,
+        "duration": 30.03,
+        "jerk": 8.89
+      },
+      "trial_2": {
+        "t1": 1.0,
+        "t2": 17.524237248561658,
+        "t3": 18.53268918409147,
+        "engine_score": 37.056926,
+        "cats": {
+          "contacts": 0.0,
+          "duration": 6.544581818181818,
+          "insertion force": 0.0,
+          "trajectory efficiency": 6.0,
+          "trajectory smoothness": 4.9796554303798395
+        },
+        "final_dist": 0.07,
+        "duration": 30.0,
+        "jerk": 8.5
+      },
+      "trial_3": {
+        "t1": 1.0,
+        "t2": 0.0,
+        "t3": 0.0,
+        "engine_score": 1.0,
+        "cats": {
+          "contacts": 0.0,
+          "duration": 0.0,
+          "insertion force": 0.0,
+          "trajectory efficiency": 0.0,
+          "trajectory smoothness": 0.0
+        },
+        "final_dist": 0.22,
+        "duration": null,
+        "jerk": null
+      }
+    }
+  }
+}

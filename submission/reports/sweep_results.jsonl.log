@@ -1,0 +1,338 @@
+[2026-05-15 10:35:08] sweep start
+
+=== [2026-05-15 10:35:08] step 4000 ===
+checkpoint: /home/graphai/checkpoints/aic_sft_v3/global_step_4000/actor/model_state_dict/full_weights.pt
+pixi PID: 2318414
+Waiting for worker model ready...
+Model ready.
+Running engine -> /tmp/engine_logs/engine_step_4000.log
+Step 4000 total: 43.841
+
+=== [2026-05-15 10:50:48] step 5000 ===
+checkpoint: /home/graphai/checkpoints/aic_sft_v3/global_step_5000/actor/model_state_dict/full_weights.pt
+pixi PID: 2381448
+Waiting for worker model ready...
+Model ready.
+Running engine -> /tmp/engine_logs/engine_step_5000.log
+[2026-05-15 11:04:22] sweep start (steps: 5000 6000 7000 8000 9000 11000)
+
+=== [2026-05-15 11:04:22] step 5000 ===
+checkpoint: /home/graphai/checkpoints/aic_sft_v3/global_step_5000/actor/model_state_dict/full_weights.pt
+videos    : /home/graphai/aic_results/videos/step_5000
+record PID: 2441131 → /home/graphai/aic_results/videos/step_5000
+pixi PID: 2441134
+Waiting for worker model ready...
+Model ready.
+Running engine → /tmp/engine_logs/engine_step_5000.log (timeout 420s)
+[2026-05-15 11:13:38] sweep start (steps: 5000 6000 7000 8000 9000 11000)
+
+=== [2026-05-15 11:13:38] step 5000 ===
+checkpoint: /home/graphai/checkpoints/aic_sft_v3/global_step_5000/actor/model_state_dict/full_weights.pt
+videos    : /home/graphai/aic_results/videos/step_5000
+record PID: 2491210 → /home/graphai/aic_results/videos/step_5000
+pixi PID: 2491213
+Waiting for worker model ready...
+Model ready.
+Running engine → /tmp/engine_logs/engine_step_5000.log (timeout 420s)
+WARN: engine timed out (rc=137) — will still parse partial scores
+Step 5000 total: FAILED
+Videos saved: 0
+
+=== [2026-05-15 11:21:16] step 6000 ===
+checkpoint: /home/graphai/checkpoints/aic_sft_v3/global_step_6000/actor/model_state_dict/full_weights.pt
+videos    : /home/graphai/aic_results/videos/step_6000
+record PID: 2529561 → /home/graphai/aic_results/videos/step_6000
+pixi PID: 2529564
+Waiting for worker model ready...
+Model ready.
+Running engine → /tmp/engine_logs/engine_step_6000.log (timeout 420s)
+WARN: engine timed out (rc=137) — will still parse partial scores
+Step 6000 total: FAILED
+Videos saved: 0
+
+=== [2026-05-15 11:28:55] step 7000 ===
+checkpoint: /home/graphai/checkpoints/aic_sft_v3/global_step_7000/actor/model_state_dict/full_weights.pt
+videos    : /home/graphai/aic_results/videos/step_7000
+record PID: 2567754 → /home/graphai/aic_results/videos/step_7000
+pixi PID: 2567757
+Waiting for worker model ready...
+Model ready.
+Running engine → /tmp/engine_logs/engine_step_7000.log (timeout 420s)
+WARN: engine timed out (rc=137) — will still parse partial scores
+Step 7000 total: FAILED
+Videos saved: 0
+
+=== [2026-05-15 11:36:33] step 8000 ===
+checkpoint: /home/graphai/checkpoints/aic_sft_v3/global_step_8000/actor/model_state_dict/full_weights.pt
+videos    : /home/graphai/aic_results/videos/step_8000
+record PID: 2605646 → /home/graphai/aic_results/videos/step_8000
+pixi PID: 2605650
+Waiting for worker model ready...
+Model ready.
+Running engine → /tmp/engine_logs/engine_step_8000.log (timeout 420s)
+WARN: engine timed out (rc=137) — will still parse partial scores
+Step 8000 total: FAILED
+Videos saved: 0
+
+=== [2026-05-15 11:44:11] step 9000 ===
+checkpoint: /home/graphai/checkpoints/aic_sft_v3/global_step_9000/actor/model_state_dict/full_weights.pt
+videos    : /home/graphai/aic_results/videos/step_9000
+record PID: 2643406 → /home/graphai/aic_results/videos/step_9000
+pixi PID: 2643409
+Waiting for worker model ready...
+Model ready.
+Running engine → /tmp/engine_logs/engine_step_9000.log (timeout 420s)
+[2026-05-15 11:53:41] sweep start (steps: 5000 6000 7000 8000 9000 11000)
+
+=== [2026-05-15 11:53:41] step 5000 (ROS_DOMAIN_ID=43) ===
+checkpoint: /home/graphai/checkpoints/aic_sft_v3/global_step_5000/actor/model_state_dict/full_weights.pt
+videos    : /home/graphai/aic_results/videos/step_5000
+record PID: 2693951 → /home/graphai/aic_results/videos/step_5000
+pixi PID: 2693954
+Waiting for worker model ready...
+Model ready.
+Running engine → /tmp/engine_logs/engine_step_5000.log (timeout 420s, domain=43)
+WARN: engine timed out (rc=137) — will still parse partial scores
+Step 5000 total: 26.527
+Videos saved: 3
+
+=== [2026-05-15 12:01:19] step 6000 (ROS_DOMAIN_ID=44) ===
+checkpoint: /home/graphai/checkpoints/aic_sft_v3/global_step_6000/actor/model_state_dict/full_weights.pt
+videos    : /home/graphai/aic_results/videos/step_6000
+record PID: 2737094 → /home/graphai/aic_results/videos/step_6000
+pixi PID: 2737097
+Waiting for worker model ready...
+Model ready.
+Running engine → /tmp/engine_logs/engine_step_6000.log (timeout 420s, domain=44)
+WARN: engine timed out (rc=137) — will still parse partial scores
+Step 6000 total: 71.668
+Videos saved: 3
+
+=== [2026-05-15 12:08:57] step 7000 (ROS_DOMAIN_ID=45) ===
+checkpoint: /home/graphai/checkpoints/aic_sft_v3/global_step_7000/actor/model_state_dict/full_weights.pt
+videos    : /home/graphai/aic_results/videos/step_7000
+record PID: 2777105 → /home/graphai/aic_results/videos/step_7000
+pixi PID: 2777110
+Waiting for worker model ready...
+Model ready.
+Running engine → /tmp/engine_logs/engine_step_7000.log (timeout 420s, domain=45)
+WARN: engine timed out (rc=137) — will still parse partial scores
+Step 7000 total: 67.153
+Videos saved: 3
+
+=== [2026-05-15 12:16:36] step 8000 (ROS_DOMAIN_ID=46) ===
+checkpoint: /home/graphai/checkpoints/aic_sft_v3/global_step_8000/actor/model_state_dict/full_weights.pt
+videos    : /home/graphai/aic_results/videos/step_8000
+record PID: 2816726 → /home/graphai/aic_results/videos/step_8000
+pixi PID: 2816729
+Waiting for worker model ready...
+Model ready.
+Running engine → /tmp/engine_logs/engine_step_8000.log (timeout 420s, domain=46)
+WARN: engine timed out (rc=137) — will still parse partial scores
+Step 8000 total: 64.313
+Videos saved: 3
+
+=== [2026-05-15 12:24:14] step 9000 (ROS_DOMAIN_ID=47) ===
+checkpoint: /home/graphai/checkpoints/aic_sft_v3/global_step_9000/actor/model_state_dict/full_weights.pt
+videos    : /home/graphai/aic_results/videos/step_9000
+record PID: 2855944 → /home/graphai/aic_results/videos/step_9000
+pixi PID: 2855947
+Waiting for worker model ready...
+Model ready.
+Running engine → /tmp/engine_logs/engine_step_9000.log (timeout 420s, domain=47)
+WARN: engine timed out (rc=137) — will still parse partial scores
+Step 9000 total: 64.063
+Videos saved: 3
+
+=== [2026-05-15 12:31:53] step 11000 (ROS_DOMAIN_ID=48) ===
+checkpoint: /home/graphai/checkpoints/aic_sft_v3/global_step_11000/actor/model_state_dict/full_weights.pt
+videos    : /home/graphai/aic_results/videos/step_11000
+record PID: 2895717 → /home/graphai/aic_results/videos/step_11000
+pixi PID: 2895720
+Waiting for worker model ready...
+Model ready.
+Running engine → /tmp/engine_logs/engine_step_11000.log (timeout 420s, domain=48)
+WARN: engine timed out (rc=137) — will still parse partial scores
+Step 11000 total: 67.852
+Videos saved: 3
+
+[2026-05-15 12:39:32] sweep done. Results: /home/graphai/checkpoints/aic_sft_v3/sweep_results.jsonl
+[2026-05-15 16:22:52] sweep start (steps: 12000 13000 14000)
+
+=== [2026-05-15 16:22:52] step 12000 (ROS_DOMAIN_ID=43) ===
+checkpoint: /home/graphai/checkpoints/aic_sft_v3/global_step_12000/actor/model_state_dict/full_weights.pt
+videos    : /home/graphai/aic_results/videos/step_12000
+[2026-05-15 16:22:56] sweep start (steps: 12000 13000 14000)
+
+=== [2026-05-15 16:22:56] step 12000 (ROS_DOMAIN_ID=43) ===
+checkpoint: /home/graphai/checkpoints/aic_sft_v3/global_step_12000/actor/model_state_dict/full_weights.pt
+videos    : /home/graphai/aic_results/videos/step_12000
+record PID: 3904899 → /home/graphai/aic_results/videos/step_12000
+pixi PID: 3904902
+Waiting for worker model ready...
+record PID: 3906326 → /home/graphai/aic_results/videos/step_12000
+pixi PID: 3906329
+Waiting for worker model ready...
+Model ready.
+Running engine → /tmp/engine_logs/engine_step_12000.log (timeout 420s, domain=43)
+Model ready.
+Running engine → /tmp/engine_logs/engine_step_12000.log (timeout 420s, domain=43)
+[2026-05-15 16:24:14] sweep start (steps: 12000 13000 14000)
+
+=== [2026-05-15 16:24:14] step 12000 (ROS_DOMAIN_ID=43) ===
+checkpoint: /home/graphai/checkpoints/aic_sft_v3/global_step_12000/actor/model_state_dict/full_weights.pt
+videos    : /home/graphai/aic_results/videos/step_12000
+record PID: 3919036 → /home/graphai/aic_results/videos/step_12000
+pixi PID: 3919039
+Waiting for worker model ready...
+Model ready.
+Running engine → /tmp/engine_logs/engine_step_12000.log (timeout 420s, domain=43)
+[2026-05-15 16:29:39] sweep start (steps: 12000 13000 14000)
+
+=== [2026-05-15 16:29:39] step 12000 (ROS_DOMAIN_ID=71) ===
+checkpoint: /home/graphai/checkpoints/aic_sft_v3/global_step_12000/actor/model_state_dict/full_weights.pt
+videos    : /home/graphai/aic_results/videos/step_12000
+record PID: 3952854 → /home/graphai/aic_results/videos/step_12000
+pixi PID: 3952857
+Waiting for worker model ready...
+Model ready.
+Running engine → /tmp/engine_logs/engine_step_12000.log (timeout 420s, domain=71)
+WARN: engine timed out (rc=137) — will still parse partial scores
+Step 12000 total: 27.321
+Videos saved: 3
+
+=== [2026-05-15 16:37:17] step 13000 (ROS_DOMAIN_ID=72) ===
+checkpoint: /home/graphai/checkpoints/aic_sft_v3/global_step_13000/actor/model_state_dict/full_weights.pt
+videos    : /home/graphai/aic_results/videos/step_13000
+record PID: 4020924 → /home/graphai/aic_results/videos/step_13000
+pixi PID: 4020927
+Waiting for worker model ready...
+Model ready.
+Running engine → /tmp/engine_logs/engine_step_13000.log (timeout 420s, domain=72)
+WARN: engine timed out (rc=137) — will still parse partial scores
+Step 13000 total: 68.954
+Videos saved: 3
+
+=== [2026-05-15 16:45:01] step 14000 (ROS_DOMAIN_ID=73) ===
+checkpoint: /home/graphai/checkpoints/aic_sft_v3/global_step_14000/actor/model_state_dict/full_weights.pt
+videos    : /home/graphai/aic_results/videos/step_14000
+record PID: 4071029 → /home/graphai/aic_results/videos/step_14000
+pixi PID: 4071032
+Waiting for worker model ready...
+Model ready.
+Running engine → /tmp/engine_logs/engine_step_14000.log (timeout 420s, domain=73)
+WARN: engine timed out (rc=137) — will still parse partial scores
+Step 14000 total: 3.000
+Videos saved: 0
+
+[2026-05-15 16:52:45] sweep done. Results: /home/graphai/checkpoints/aic_sft_v3/sweep_results.jsonl
+[2026-05-15 17:13:54] sweep start (steps: 15000)
+
+=== [2026-05-15 17:13:54] step 15000 (ROS_DOMAIN_ID=81) ===
+checkpoint: /home/graphai/checkpoints/aic_sft_v3/global_step_15000/actor/model_state_dict/full_weights.pt
+videos    : /home/graphai/aic_results/videos/step_15000
+record PID: 255260 → /home/graphai/aic_results/videos/step_15000
+pixi PID: 255263
+Waiting for worker model ready...
+TIMEOUT waiting for model ready
+
+[2026-05-15 17:19:16] sweep done. Results: /home/graphai/checkpoints/aic_sft_v3/sweep_results.jsonl
+[2026-05-15 17:36:24] sweep start (steps: 15000)
+
+=== [2026-05-15 17:36:24] step 15000 (ROS_DOMAIN_ID=81) ===
+checkpoint: /home/graphai/checkpoints/aic_sft_v3/global_step_15000/actor/model_state_dict/full_weights.pt
+videos    : /home/graphai/aic_results/videos/step_15000
+record PID: 727089 → /home/graphai/aic_results/videos/step_15000
+pixi PID: 727092
+Waiting for worker model ready...
+Model ready.
+Running engine → /tmp/engine_logs/engine_step_15000.log (timeout 420s, domain=81)
+WARN: engine timed out (rc=137) — will still parse partial scores
+Step 15000 total: 76.158
+Videos saved: 3
+
+[2026-05-15 17:44:02] sweep done. Results: /home/graphai/checkpoints/aic_sft_v3/sweep_results.jsonl
+[2026-05-15 20:06:13] sweep start (steps: 16788)
+
+=== [2026-05-15 20:06:13] step 16788 (ROS_DOMAIN_ID=91) ===
+checkpoint: /home/graphai/checkpoints/aic_sft_v3/global_step_16788/actor/model_state_dict/full_weights.pt
+videos    : /home/graphai/aic_results/videos/step_16788
+record PID: 1400263 → /home/graphai/aic_results/videos/step_16788
+pixi PID: 1400266
+Waiting for worker model ready...
+Model ready.
+Running engine → /tmp/engine_logs/engine_step_16788.log (timeout 420s, domain=91)
+WARN: engine timed out (rc=137) — will still parse partial scores
+Step 16788 total: 63.178
+Videos saved: 3
+
+[2026-05-15 20:13:51] sweep done. Results: /home/graphai/checkpoints/aic_sft_v3/sweep_results.jsonl
+[2026-05-16 00:16:46] sweep start (steps: 18000 19000 20000)
+
+=== [2026-05-16 00:16:46] step 18000 (ROS_DOMAIN_ID=101) ===
+checkpoint: /home/graphai/checkpoints/aic_sft_v3/global_step_18000/actor/model_state_dict/full_weights.pt
+videos    : /home/graphai/aic_results/videos/step_18000
+record PID: 2520583 → /home/graphai/aic_results/videos/step_18000
+pixi PID: 2520586
+Waiting for worker model ready...
+Model ready.
+Running engine → /tmp/engine_logs/engine_step_18000.log (timeout 420s, domain=101)
+WARN: engine timed out (rc=137) — will still parse partial scores
+Step 18000 total: 72.385
+Videos saved: 3
+
+=== [2026-05-16 00:24:24] step 19000 (ROS_DOMAIN_ID=102) ===
+checkpoint: /home/graphai/checkpoints/aic_sft_v3/global_step_19000/actor/model_state_dict/full_weights.pt
+videos    : /home/graphai/aic_results/videos/step_19000
+record PID: 2569238 → /home/graphai/aic_results/videos/step_19000
+pixi PID: 2569241
+Waiting for worker model ready...
+Model ready.
+Running engine → /tmp/engine_logs/engine_step_19000.log (timeout 420s, domain=102)
+WARN: engine timed out (rc=137) — will still parse partial scores
+Step 19000 total: 73.241
+Videos saved: 3
+
+=== [2026-05-16 00:32:03] step 20000 (ROS_DOMAIN_ID=103) ===
+checkpoint: /home/graphai/checkpoints/aic_sft_v3/global_step_20000/actor/model_state_dict/full_weights.pt
+videos    : /home/graphai/aic_results/videos/step_20000
+record PID: 2618225 → /home/graphai/aic_results/videos/step_20000
+pixi PID: 2618228
+Waiting for worker model ready...
+Model ready.
+Running engine → /tmp/engine_logs/engine_step_20000.log (timeout 420s, domain=103)
+WARN: engine timed out (rc=137) — will still parse partial scores
+Step 20000 total: 52.704
+Videos saved: 3
+
+[2026-05-16 00:39:41] sweep done. Results: /home/graphai/checkpoints/aic_sft_v3/sweep_results.jsonl
+[2026-05-16 07:01:21] sweep start (steps: 26000)
+
+=== [2026-05-16 07:01:21] step 26000 (ROS_DOMAIN_ID=111) ===
+checkpoint: /home/graphai/checkpoints/aic_sft_v3/global_step_26000/actor/model_state_dict/full_weights.pt
+videos    : /home/graphai/aic_results/videos/step_26000
+record PID: 155955 → /home/graphai/aic_results/videos/step_26000
+pixi PID: 155958
+Waiting for worker model ready...
+Model ready.
+Running engine → /tmp/engine_logs/engine_step_26000.log (timeout 420s, domain=111)
+[2026-05-16 07:07:40] sweep start (steps: 26000)
+
+=== [2026-05-16 07:07:40] step 26000 (ROS_DOMAIN_ID=121) ===
+checkpoint: /home/graphai/checkpoints/aic_sft_v3/global_step_26000/actor/model_state_dict/full_weights.pt
+videos    : /home/graphai/aic_results/videos/step_26000
+WARN: engine timed out (rc=137) — will still parse partial scores
+Step 26000 total: 65.046
+Videos saved: 0
+
+[2026-05-16 07:07:44] sweep done. Results: /home/graphai/checkpoints/aic_sft_v3/sweep_results.jsonl
+record PID: 192492 → /home/graphai/aic_results/videos/step_26000
+pixi PID: 192495
+Waiting for worker model ready...
+Model ready.
+Running engine → /tmp/engine_logs/engine_step_26000.log (timeout 420s, domain=121)
+WARN: engine timed out (rc=137) — will still parse partial scores
+Step 26000 total: 73.328
+Videos saved: 3
+
+[2026-05-16 07:15:18] sweep done. Results: /home/graphai/checkpoints/aic_sft_v3/sweep_results.jsonl
